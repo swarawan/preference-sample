@@ -25,7 +25,7 @@ class LoginActivity : AppCompatActivity() {
         val password = inputPassword.text.toString()
 
         when {
-            username.isEmpty() -> showMessage("Username tidak boleh kosong")
+            username.isBlank() -> showMessage("Username tidak boleh kosong")
             password.isEmpty() -> showMessage("Password tidak boleh kosong")
             !username.equals("rioswarawan", true) -> showMessage("username tidak sesuai")
             !password.equals("12345678", true) -> showMessage("password tidak sesuai")
@@ -40,6 +40,7 @@ class LoginActivity : AppCompatActivity() {
         // intent to main
         val intent = Intent(this@LoginActivity, MainActivity::class.java)
         startActivity(intent)
+        finish()
     }
 
     private fun showMessage(msg: String) {
