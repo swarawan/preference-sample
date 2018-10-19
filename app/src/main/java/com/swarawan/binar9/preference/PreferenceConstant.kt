@@ -7,5 +7,6 @@ class PreferenceConstant {
 
     companion object {
         const val isLoggedIn = "isLoggedIn"
+        const val username = "username"
     }
 }

@@ -1,9 +1,12 @@
-package com.swarawan.binar9
+package com.swarawan.binar9.ui.launcher
 
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.support.v7.app.AppCompatActivity
+import com.swarawan.binar9.ui.login.LoginActivity
+import com.swarawan.binar9.ui.main.MainActivity
+import com.swarawan.binar9.R
 import com.swarawan.binar9.preference.PreferenceConfig
 import com.swarawan.binar9.preference.PreferenceConstant
 

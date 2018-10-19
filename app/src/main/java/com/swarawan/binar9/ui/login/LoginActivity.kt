@@ -1,9 +1,11 @@
-package com.swarawan.binar9
+package com.swarawan.binar9.ui.login
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import com.swarawan.binar9.ui.main.MainActivity
+import com.swarawan.binar9.R
 import com.swarawan.binar9.preference.PreferenceConfig
 import com.swarawan.binar9.preference.PreferenceConstant
 import kotlinx.android.synthetic.main.activity_login.*

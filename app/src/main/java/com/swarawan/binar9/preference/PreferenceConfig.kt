@@ -31,4 +31,8 @@ class PreferenceConfig(context: Context) {
     fun getBoolean(key: String): Boolean {
         return preferences.getBoolean(key, false)
     }
+
+    fun clear() {
+        preferences.edit().clear()
+    }
 }
